@@ -1,0 +1,48 @@
+# Ignorar ambientes virtuais
+.venv/
+venv/
+ENV/
+.env/
+
+# Ignorar caches e arquivos compilados do Python
+__pycache__/
+*.py[cod]
+
+# Ignorar dependências de gerenciadores de pacotes
+node_modules/
+
+# Ignorar arquivos de log
+*.log
+
+# Ignorar arquivos de configuração de IDE
+.idea/
+.vscode/
+
+# Ignorar arquivos de backup e temporários
+*.bak
+*.swp
+*.tmp
+# Ignorar ambientes virtuais
+.venv/
+venv/
+ENV/
+.env/
+
+# Ignorar caches e arquivos compilados do Python
+__pycache__/
+*.py[cod]
+
+# Ignorar dependências de gerenciadores de pacotes
+node_modules/
+
+# Ignorar arquivos de log
+*.log
+
+# Ignorar arquivos de configuração de IDE
+.idea/
+.vscode/
+
+# Ignorar arquivos de backup e temporários
+*.bak
+*.swp
+*.tmp
