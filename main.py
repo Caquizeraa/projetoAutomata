@@ -1,6 +1,7 @@
 # Imports
 import io
 from fastapi import FastAPI, HTTPException
+from fastapi.responses import StreamingResponse
 from pydantic import BaseModel
 
 # Imports DFA
@@ -181,7 +182,7 @@ def accept_dtm(dtm_id: str, acceptance: AcceptanceRequest):
     
 # ---------------- Rota para obter o diagrama (imagem) da DFA ----------------
 @app.get("/dfa/{dfa_id}/image")
-def get_automato_image(dfa_id: str):
+def get_dfa_image(dfa_id: str):
     # busca a DFA na memória
     if dfa_id in dfa_storage:
         dfa = dfa_storage[dfa_id]
